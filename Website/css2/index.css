@@ -1,0 +1,289 @@
+
+
+section{
+	
+	background-color: #FFFAF0;
+	width:100%;
+    display: block;
+    height: 350px;
+  
+}
+@media screen and (max-width:800px){
+.contact{
+    background-color: #000000;
+	width:100%;
+    display: block;
+    
+    height: 480px;
+
+}
+}
+@media screen and (min-width:800px){
+.contact{
+    background-color: #000000;
+	width:100%;
+    display: block;
+    height: 600px;
+
+}
+}
+body{
+	background-color: #000000;
+	width:100%;
+    display: block;
+
+}
+
+.container{
+	position: relative;
+	display: block;
+	margin: 0 auto;	
+}
+
+.right-bottom{
+	position: absolute;
+	left: 73%;
+	top: 43%;
+	transform: translate(-50%, -50%);
+	width:50%;
+	color: #A9A9A9;
+}
+@media screen and (max-width:600px){
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 32%;
+	text-align: justify-all;
+}
+}
+
+@media screen and (min-width:600px) and (max-width: 700px){
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 35%;
+	text-align: justify-all;
+}
+}
+
+@media screen and (min-width:700px) and (max-width: 900px){
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 37%;
+	text-align: justify-all;
+}
+}
+@media screen and (min-width:900px) and (max-width: 1000px){
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 40%;
+	text-align: justify-all;
+}
+}
+
+@media screen and (min-width:1000px) and (max-width: 1200px){
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 42%;
+	text-align: justify-all;
+}
+}
+
+@media screen and (min-width:1200px) {
+.bottom{
+	color: #000000;
+	font-weight: bold;
+	font-size: xx-large;
+	margin-left: 44%;
+	text-align: justify-all;
+}
+}
+
+.bottom2{
+	
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: justify-all;
+	margin-left: 5%;
+}
+@media screen and (max-width:800px){
+.info{
+
+	font-size: small;
+	margin-left: 5%;
+	color:#FFFFFF;
+	margin-top: -5%;
+	text-align: left;
+    font-weight: 400;
+
+}
+}
+
+@media screen and (min-width:800px){
+.info{
+
+	font-size: large;
+	margin-left: 5%;
+	color:#FFFFFF;
+	margin-top: -5%;
+	text-align: left;
+}
+}
+
+
+@media screen and (max-width:800px){
+.top{
+	color: #000000;
+	font-weight: inherit;
+	font-size: small;
+	text-align: center;
+	margin-top: -5%;
+	font-weight: 500;
+	font-family:Palatino;
+}
+}
+
+@media screen and (min-width:800px){
+.top{
+	color: #000000;
+	font-size: large;
+	text-align: center;
+	margin-top: -5%;
+	font-weight: 500;
+	font-family: Palatino;
+	
+
+}
+}
+
+
+@media screen and (min-width:15000px){
+img{
+	display: block;
+	min-height:98vh;
+
+}
+}
+
+@media screen and (max-width:800px){
+p{
+	color: #EEE8AA;
+	font-family: effra_std_rg;	
+	text-align: center;
+	display: inline-block;
+	margin-right: 3%;
+	font-size: xx-small;
+	padding:2%;
+}
+}
+
+
+@media screen and (min-width:800px){
+p{
+	color: #EEE8AA;
+	font-family: effra_std_rg;	
+	text-align: center;
+	display: inline-block;
+	margin-right: 3%;
+	font-size: large;
+	padding:2%;
+}
+}
+
+
+b{
+	color: #EEE8AA;
+	font-family: Palatino;	
+	font-size: 400%;
+	text-align: center;
+}
+
+/*
+@media screen and (max-width:800px){
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FDF5E6;
+	float: right;
+	margin-right: 7%;
+	font-family: Palatino;
+	font-size: small;
+	min-height: 2vh;
+}
+}
+
+@media screen and (min-width:800px){
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FDF5E6;
+	float: right;
+	margin-right: 7%;
+	font-family: Palatino;
+	font-size: medium;
+	min-height: 2vh;
+}
+}
+*/
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FDF5E6;
+	float: right;
+	margin-right: 7%;
+	font-family: Palatino;
+	font-size: medium;
+	min-height: 2vh;
+}
+p, b {
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+
+
+b:hover{
+	color: #EEE8AA ;
+}
+
+@media screen and (max-width:800px){
+em{
+
+	font-size: small;
+	color:#FFFFFF;
+	margin-top: -5%;
+	text-align: left;
+    font-weight: 400;
+    font-style: normal;
+
+}
+}
+
+@media screen and (min-width:800px){
+em{
+
+	font-size: large;
+	color:#FFFFFF;
+	margin-top: -5%;
+	text-align: left;
+	font-weight: 400;
+	font-style: normal;
+}
+}
+ @media screen and (max-width:800px){
+.bottom{
+	margin-top: 10%;
+}
+}
+
+
+
